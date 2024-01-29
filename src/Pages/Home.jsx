@@ -2,9 +2,12 @@ import Nav from "../Components/Nav";
 
 function Home() {
   return (
-    <div className="homePage">
+    <div>
       <Nav />
-      <h1>LSD STUDIOS</h1>
+
+      <div className="homePage">
+        <h1>LSD STUDIOS</h1>
+      </div>
     </div>
   );
 }
