@@ -1,38 +1,60 @@
-.App {
-  text-align: center;
+@font-face {
+  font-family: "Akira";
+  src: url("./Assets/Akira.otf");
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #fff9f2;
+  overflow: hidden;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.navLinks {
+  font-family: "Akira";
+  font-size: 65px;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  padding: 40px;
+}
+
+.link {
+  width: 250px;
+  letter-spacing: -3px;
+  text-decoration: none;
+  transition: 0.25s ease-out;
+  color: rgb(51, 0, 255);
+  -webkit-text-stroke: 0px;
+  margin-bottom: -10px;
+}
+
+.link:hover {
+  color: transparent;
+  -webkit-text-stroke: 2px rgb(51, 0, 255);
+  scale: 120%;
+  transform-origin: left;
+}
+
+.link:active {
+}
+
+.homePage {
+  width: 100vh;
+  height: 100%;
+}
+
+.homePage h1 {
+  font-family: "Akira";
+  color: transparent;
+  -webkit-text-stroke: 2px rgb(51, 0, 255);
+  position: absolute;
+  bottom: -15%;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 180px;
+  width: 100%;
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  letter-spacing: -30px;
 }
