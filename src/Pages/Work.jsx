@@ -19,7 +19,7 @@ function Work() {
       <div className="workItems">
         {workArray.map((item, key) => (
           <div className="clientItem" key={item.index}>
-            <a href={item.link} target="_blank">
+            <a href={item.link} target="_blank" rel="noreferrer">
               <h1>{item.client}</h1>
             </a>
           </div>
