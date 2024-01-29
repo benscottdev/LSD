@@ -16,6 +16,26 @@ body {
   overflow: hidden;
 }
 
+.slideIn {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: rgb(51, 0, 255);
+  transform-origin: top;
+}
+
+.slideOut {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: rgb(51, 0, 255);
+  transform-origin: bottom;
+}
+
 .homeBtn h1 {
   font-family: "Akira";
   color: transparent;
@@ -66,7 +86,7 @@ body {
 .homePage h1 {
   font-family: "Akira";
   color: transparent;
-  -webkit-text-stroke: 2px rgb(51, 0, 255);
+  -webkit-text-stroke: 2.5px rgb(51, 0, 255);
   position: absolute;
   bottom: -15%;
   left: 50%;
@@ -87,9 +107,27 @@ body {
 
 .about p {
   font-family: "Bank Printer";
-  color: rgb(38, 38, 38);
+  color: rgb(51, 0, 255);
   width: 700px;
   line-height: 20px;
+}
+
+.create {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.create p {
+  font-family: "Bank Printer";
+  color: rgb(51, 0, 255);
+  width: 700px;
+  line-height: 20px;
+}
+
+.create a {
+  color: rgb(51, 0, 255);
 }
 
 .work {

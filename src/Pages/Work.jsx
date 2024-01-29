@@ -1,4 +1,5 @@
 import HomeBtn from "../Components/HomeBtn";
+import Transition from "../Components/Transition";
 
 function Work() {
   const workArray = [
@@ -27,4 +28,4 @@ function Work() {
     </div>
   );
 }
-export default Work;
+export default Transition(Work);

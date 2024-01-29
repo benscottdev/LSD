@@ -1,4 +1,5 @@
 import Nav from "../Components/Nav";
+import Transition from "../Components/Transition";
 
 function Home() {
   return (
@@ -11,4 +12,4 @@ function Home() {
     </div>
   );
 }
-export default Home;
+export default Transition(Home);
