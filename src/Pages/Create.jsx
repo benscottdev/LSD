@@ -1,4 +1,10 @@
+import HomeBtn from "../Components/HomeBtn";
+
 function Create() {
-  return <div>Create</div>;
+  return (
+    <div className="create">
+      <HomeBtn />
+    </div>
+  );
 }
 export default Create;

@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 function HomeBtn() {
   return (
     <div className="homeBtn">

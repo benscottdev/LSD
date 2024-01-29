@@ -3,12 +3,34 @@
   src: url("./Assets/Akira.otf");
 }
 
+@font-face {
+  font-family: "Bank Printer";
+  src: url("./Assets/F25_Bank_Printer.ttf");
+}
+
 body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   background-color: #fff9f2;
   overflow: hidden;
+}
+
+.homeBtn h1 {
+  font-family: "Akira";
+  color: transparent;
+  -webkit-text-stroke: 2px rgb(51, 0, 255);
+  letter-spacing: -10px;
+  font-size: 80px;
+  position: absolute;
+  right: 50px;
+  top: -20px;
+  transition: 0.2s ease-out;
+}
+
+.homeBtn h1:hover {
+  color: rgb(51, 0, 255);
+  -webkit-text-stroke: hidden;
 }
 
 .navLinks {
@@ -23,7 +45,7 @@ body {
   width: 250px;
   letter-spacing: -3px;
   text-decoration: none;
-  transition: 0.25s ease-out;
+  transition: 0.12s ease-out;
   color: rgb(51, 0, 255);
   -webkit-text-stroke: 0px;
   margin-bottom: -10px;
@@ -34,9 +56,6 @@ body {
   -webkit-text-stroke: 2px rgb(51, 0, 255);
   scale: 120%;
   transform-origin: left;
-}
-
-.link:active {
 }
 
 .homePage {
@@ -57,4 +76,49 @@ body {
   display: flex;
   justify-content: center;
   letter-spacing: -30px;
+}
+
+.about {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.about p {
+  font-family: "Bank Printer";
+  color: rgb(38, 38, 38);
+  width: 700px;
+  line-height: 20px;
+}
+
+.work {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.workItems {
+  cursor: pointer;
+  flex-direction: column;
+  padding-left: 30px;
+  font-family: "Akira";
+  line-height: 10px;
+  color: rgb(51, 0, 255);
+  font-size: 30px;
+}
+
+.clientItem a:hover,
+.clientItem:hover {
+  color: transparent;
+  -webkit-text-stroke: 2px rgb(51, 0, 255);
+  scale: 120%;
+  transform-origin: left;
+}
+
+.clientItem a {
+  text-decoration: none;
+  color: rgb(51, 0, 255);
 }
