@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1875.28 269.62">
+  <defs>
+    <style>
+      .cls-1 {
+        letter-spacing: -.18em;
+      }
+
+      .cls-2 {
+        letter-spacing: -.15em;
+      }
+
+      .cls-3 {
+        letter-spacing: -.16em;
+      }
+
+      .cls-4 {
+        letter-spacing: -.08em;
+      }
+
+      .cls-5 {
+        letter-spacing: -.12em;
+      }
+
+      .cls-6 {
+        fill: none;
+        font-family: AkiraExpanded-SuperBold, 'Akira Expanded';
+        font-size: 253px;
+        font-weight: 700;
+        stroke: #231f20;
+        stroke-miterlimit: 10;
+        stroke-width: 6px;
+      }
+
+      .cls-7 {
+        letter-spacing: -.11em;
+      }
+
+      .cls-8 {
+        letter-spacing: -.19em;
+      }
+
+      .cls-9 {
+        letter-spacing: -.12em;
+      }
+
+      .cls-10 {
+        letter-spacing: -.13em;
+      }
+    </style>
+  </defs>
+  <text class="cls-6" transform="translate(3 218.07)"><tspan class="cls-3" x="0" y="0">L</tspan><tspan class="cls-10" x="159.53" y="0">S</tspan><tspan class="cls-1" x="356.61" y="0">D </tspan><tspan class="cls-8" x="620.82" y="0">S</tspan><tspan class="cls-7" x="802.58" y="0">T</tspan><tspan class="cls-4" x="997.57" y="0">U</tspan><tspan class="cls-5" x="1207.99" y="0">D</tspan><tspan class="cls-9" x="1408.41" y="0">I</tspan><tspan class="cls-2" x="1446.63" y="0">O</tspan><tspan class="cls-1" x="1641.49" y="0">S</tspan></text>
+</svg>

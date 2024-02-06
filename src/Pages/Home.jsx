@@ -1,5 +1,6 @@
 import Nav from "../Components/Nav";
 import Transition from "../Components/Transition";
+import lsdStudiosWebLogo from "../Assets/LSDSTUDIOS_WEBLOGO2.svg";
 
 function Home() {
   return (
@@ -7,7 +8,7 @@ function Home() {
       <Nav />
 
       <div className="homePage">
-        <h1>LSD STUDIOS</h1>
+        <img src={lsdStudiosWebLogo} alt="weblogo" />
       </div>
     </div>
   );
