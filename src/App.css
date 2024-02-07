@@ -12,7 +12,7 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  background-color: #012ff9;
+  background-color: blue;
   overflow: hidden;
 }
 
@@ -64,7 +64,8 @@ body {
 }
 
 .link {
-  width: 250px;
+  width: 350px;
+  padding: 2px;
   letter-spacing: -6px;
   text-decoration: none;
   transition: 0.12s ease-out;
@@ -72,11 +73,12 @@ body {
   -webkit-text-stroke: 0px;
   margin-bottom: -10px;
   display: flex;
+  box-shadow: inset 0 0 0 0 white;
+  transition: color 0.25s ease-in-out, box-shadow 0.25s ease-in-out;
 }
 
 .link:hover {
-  scale: 120%;
-  transform-origin: left;
+  box-shadow: inset 350px 0 0 black;
 }
 
 .homePage {
@@ -145,6 +147,7 @@ body {
   line-height: 10px;
   color: white;
   font-size: 30px;
+  box-shadow: inset 0 0 0 0 white;
 }
 
 .clientItem a:hover,
@@ -152,7 +155,6 @@ body {
   color: transparent;
   -webkit-text-stroke: 3px white;
   scale: 110%;
-  transform-origin: left;
 }
 
 .clientItem a,
@@ -163,28 +165,4 @@ body {
 }
 
 @media only screen and (max-width: 320px) {
-  body {
-    padding: 10px; /* Add padding to the body */
-  }
-  .navLinks {
-    font-size: 40px; /* Decrease font size for navigation links */
-    padding: 20px; /* Adjust padding */
-  }
-  .homeBtn h1 {
-    font-size: 40px; /* Decrease font size for home button */
-    right: 20px; /* Adjust position */
-    top: -10px; /* Adjust position */
-  }
-  .homePage img {
-    width: 320px; /* Adjust image width */
-    right: 10px; /* Adjust position */
-  }
-  .about p,
-  .create p {
-    width: 300px; /* Adjust paragraph width */
-    font-size: 10px; /* Decrease font size */
-  }
-  .workItems {
-    font-size: 20px; /* Decrease font size */
-  }
 }

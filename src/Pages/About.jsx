@@ -6,20 +6,18 @@ function About() {
     <div className="about">
       <HomeBtn />
       <p>
-        Hey there! I'm a 23-year-old web enthusiast with a passion for crafting
-        awesome online experiences.
+        Yo! I'm a 23-year-old web enthusiast with a knack for crafting sleek
+        online experiences.
+        <br /> <br />
+        Fluent in CSS, HTML, JavaScript, and React, I specialize in turning
+        ideas into polished interfaces that not only look great but also
+        function seamlessly. When I'm not buried in lines of code, you'll find
+        me exploring the latest design trends or brainstorming over a cup of
+        coffee. Let's team up and bring your web visions to life in a way that's
+        both professional and effortlessly cool.
         <br />
         <br />
-        Fluent in the languages of: CSS, HTML, JavaScript, and React, I bring
-        your digital dreams to life. I thrive on turning ideas into clean,
-        user-friendly interfaces that not only look good but work seamlessly.
-        When I'm not immersed in lines of code, you'll likely find me exploring
-        new design trends or sipping coffee while brainstorming my next creative
-        breakthrough.
-        <br />
-        <br />
-        Let's collaborate and bring your web visions to reality in a way that's
-        both professional and effortlessly cool. Cheers to coding and creating!
+        Let's make some digital magic happen!
       </p>
     </div>
   );
