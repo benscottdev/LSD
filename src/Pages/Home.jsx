@@ -1,14 +1,13 @@
 import Nav from "../Components/Nav";
 import Transition from "../Components/Transition";
-import lsdStudiosWebLogo from "../Assets/LSDSTUDIOS_WEBLOGO2.svg";
+import lsdStudiosWebLogo from "../Assets/LSD_WEBLOGO.svg";
 
 function Home() {
   return (
     <div>
       <Nav />
-
       <div className="homePage">
-        <img src={lsdStudiosWebLogo} alt="weblogo" />
+        <img className="logoSvg" src={lsdStudiosWebLogo} alt="weblogo" />
       </div>
     </div>
   );
