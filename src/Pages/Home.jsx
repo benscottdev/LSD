@@ -1,6 +1,6 @@
 import Nav from "../Components/Nav";
 import Transition from "../Components/Transition";
-import lsdStudiosWebLogo from "../Assets/LSD_WEBLOGO.svg";
+import lsdStudiosWebLogo from "../Assets/LSD_WEBLOGO.png";
 
 function Home() {
   return (
