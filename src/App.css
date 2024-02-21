@@ -187,6 +187,7 @@ body {
 
   .homeBtn h1 {
     font-size: 60px;
+    -webkit-text-stroke: 2px white;
   }
 
   .about p {
