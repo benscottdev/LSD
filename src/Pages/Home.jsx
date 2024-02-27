@@ -11,7 +11,12 @@ function Home() {
         <img className="logoSvg" src={lsdStudiosWebLogo} alt="weblogo" />
       </div>
       <a href="https://github.com/benscottdev" target="_blank">
-        <img src={githubLogo} alt="github link" className="githubLogo" />
+        <img
+          src={githubLogo}
+          alt="github link"
+          className="githubLogo"
+          rel="noreferrer"
+        />
       </a>
     </div>
   );
