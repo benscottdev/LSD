@@ -10,13 +10,8 @@ function Home() {
       <div className="homePage">
         <img className="logoSvg" src={lsdStudiosWebLogo} alt="weblogo" />
       </div>
-      <a href="https://github.com/benscottdev" target="_blank">
-        <img
-          src={githubLogo}
-          alt="github link"
-          className="githubLogo"
-          rel="noreferrer"
-        />
+      <a href="https://github.com/benscottdev" target="_blank" rel="noreferrer">
+        <img src={githubLogo} alt="github link" className="githubLogo" />
       </a>
     </div>
   );
