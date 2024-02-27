@@ -16,14 +16,6 @@ body {
   overflow: hidden;
 }
 
-.githubLogo {
-  width: 40px;
-  position: absolute;
-  left: 20px;
-  bottom: 20px;
-  cursor: pointer;
-}
-
 .slideOut {
   position: fixed;
   top: 0;
@@ -83,7 +75,7 @@ body {
 }
 
 .link:hover {
-  color: rgb(239, 248, 116);
+  color: #ffd900;
   scale: 110%;
   transform-origin: left;
 }
@@ -103,6 +95,20 @@ body {
 .homePage img {
   width: 700px;
   padding: 20px;
+}
+
+.githubLogo {
+  width: 40px;
+  position: absolute;
+  left: 20px;
+  bottom: 20px;
+  cursor: pointer;
+  filter: brightness(0) invert(1);
+  transition: 0.2s ease;
+}
+
+.githubLogo:hover {
+  filter: brightness(1);
 }
 
 .logoSvg:hover {

@@ -12,8 +12,8 @@ function Work() {
       link: "https://tagt.netlify.app/",
     },
     {
-      client: "3. Weather App",
-      link: "",
+      client: "3. Weather API",
+      link: "https://lsdstudiosweatherapp.netlify.app/",
     },
   ];
 

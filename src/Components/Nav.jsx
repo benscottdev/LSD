@@ -7,7 +7,7 @@ function Nav() {
         About
       </Link>
       <Link className="link" to="/work">
-        Work
+        Projects
       </Link>
       <Link className="link" to="/create">
         Create
