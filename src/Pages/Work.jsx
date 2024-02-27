@@ -15,6 +15,10 @@ function Work() {
       client: "3. Weather API",
       link: "https://lsdstudiosweatherapp.netlify.app/",
     },
+    {
+      client: "4. Budget",
+      link: "https://benscottdev-letsbudget.netlify.app/",
+    },
   ];
 
   return (
