@@ -16,6 +16,14 @@ body {
   overflow: hidden;
 }
 
+.githubLogo {
+  width: 40px;
+  position: absolute;
+  left: 20px;
+  bottom: 20px;
+  cursor: pointer;
+}
+
 .slideOut {
   position: fixed;
   top: 0;
