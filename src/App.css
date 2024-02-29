@@ -249,6 +249,10 @@ body {
     font-size: 50px;
   }
 
+  .link:hover {
+    scale: 100%;
+  }
+
   .homePage {
     display: flex;
     align-items: flex-end;
@@ -262,12 +266,14 @@ body {
   .homeBtn h1 {
     font-size: 50px;
     -webkit-text-stroke: 1px white;
+    letter-spacing: -12px;
   }
 
   .about p {
-    width: 250px;
-    font-size: 8px;
-    line-height: 12px;
+    width: 300px;
+    font-size: 10px;
+    line-height: 14px;
+    text-align: center;
   }
 
   .workItems {
@@ -275,9 +281,10 @@ body {
   }
 
   .create p {
-    width: 250px;
+    width: 300px;
     font-size: 10px;
     line-height: 14px;
+    text-align: center;
   }
 
   .githubLogo {
