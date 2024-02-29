@@ -269,4 +269,19 @@ body {
   .githubLogo {
     display: none;
   }
+
+  .toggleMode {
+    top: 3%;
+    left: 90%;
+  }
+
+  .toggleMode button {
+    width: 20px;
+    height: 20px;
+  }
+
+  .toggleMode img {
+    width: 10px;
+    height: 10px;
+  }
 }
