@@ -4,19 +4,26 @@ import Home from "./Pages/Home";
 import About from "./Pages/About";
 import Work from "./Pages/Work";
 import Create from "./Pages/Create";
+import LightModeToggle from "./Components/LightModeToggle.jsx";
+import { useState } from "react";
 
 function App() {
   const location = useLocation();
+  const [lightMode, setLightMode] = useState("dark");
 
   return (
-    <AnimatePresence mode="wait">
-      <Routes location={location} key={location.pathname}>
-        <Route path="/" element={<Home />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/work" element={<Work />} />
-        <Route path="/create" element={<Create />} />
-      </Routes>
-    </AnimatePresence>
+    <div>
+      <LightModeToggle lightMode={lightMode} setLightMode={setLightMode} />
+
+      <AnimatePresence mode="wait">
+        <Routes location={location} key={location.pathname}>
+          <Route path="/" element={<Home lightMode={lightMode} />} />
+          <Route path="/about" element={<About lightMode={lightMode} />} />
+          <Route path="/work" element={<Work lightMode={lightMode} />} />
+          <Route path="/create" element={<Create lightMode={lightMode} />} />
+        </Routes>
+      </AnimatePresence>
+    </div>
   );
 }
 export default App;

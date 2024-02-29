@@ -1,18 +1,21 @@
+import nightModeIcon from "../Assets/NightMode.png";
+import dayModeIcon from "../Assets/DayMode.png";
+
 function LightModeToggle({ lightMode, setLightMode }) {
   function toggle() {
     if (lightMode === "dark") {
       setLightMode("light");
       console.log(lightMode);
-    } else if (lightMode === "light") {
+    } else {
       setLightMode("dark");
       console.log(lightMode);
     }
   }
+
   return (
     <div className="toggleMode">
       <button onClick={toggle}>
-        LIGHT <br />
-        MODE
+        <img src={lightMode === "light" ? dayModeIcon : nightModeIcon} alt="" />
       </button>
     </div>
   );

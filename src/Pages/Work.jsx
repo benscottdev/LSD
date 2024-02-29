@@ -1,7 +1,7 @@
 import HomeBtn from "../Components/HomeBtn";
 import Transition from "../Components/Transition";
 
-function Work() {
+function Work({ lightMode }) {
   const workArray = [
     {
       client: "1. Songworks",
@@ -18,16 +18,18 @@ function Work() {
   ];
 
   return (
-    <div className="work">
-      <HomeBtn />
-      <div className="workItems">
-        {workArray.map((item, key) => (
-          <div className="clientItem" key={item.index}>
-            <a href={item.link} target="_blank" rel="noreferrer">
-              <h1>{item.client}</h1>
-            </a>
-          </div>
-        ))}
+    <div className={lightMode}>
+      <div className="work">
+        <HomeBtn />
+        <div className="workItems">
+          {workArray.map((item, key) => (
+            <div className="clientItem" key={item.index}>
+              <a href={item.link} target="_blank" rel="noreferrer">
+                <h1>{item.client}</h1>
+              </a>
+            </div>
+          ))}
+        </div>
       </div>
     </div>
   );

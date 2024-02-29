@@ -12,7 +12,7 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  background-color: rgb(22, 22, 81);
+
   overflow: hidden;
 }
 
@@ -70,14 +70,74 @@ body {
   text-decoration: none;
   transition: 0.12s ease-out;
   color: white;
-  -webkit-text-stroke: 0px;
   margin-bottom: -10px;
 }
 
 .link:hover {
-  color: #ffd900;
-  scale: 110%;
+  color: transparent;
+  -webkit-text-stroke: 1px white;
+  scale: 115%;
   transform-origin: left;
+}
+
+.githubLogo {
+  width: 45px;
+  position: absolute;
+  left: 80px;
+  bottom: 20px;
+  cursor: pointer;
+  filter: brightness(10);
+  transition: 0.2s ease;
+}
+
+.githubLogo:hover {
+  scale: 115%;
+}
+
+.toggleMode {
+  position: absolute;
+  left: 25px;
+  bottom: 20px;
+}
+
+.toggleMode button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  width: 45px;
+  height: 45px;
+  font-size: 8px;
+  font-family: "Akira";
+  background-color: transparent;
+  color: white;
+  border: 2px solid white;
+  border-radius: 5px;
+  transition: 0.2s ease;
+}
+
+.toggleMode img {
+  width: 30px;
+  filter: invert(1) brightness(10);
+}
+
+.toggleMode button:hover {
+  scale: 115%;
+}
+
+.light {
+  width: 100dvw;
+  height: 100dvh;
+  background-color: rgb(255, 161, 106);
+  transition: 0.4s ease;
+  color: pink;
+}
+
+.dark {
+  width: 100dvw;
+  height: 100dvh;
+  background-color: rgb(22, 22, 81);
+  transition: 0.4s ease;
 }
 
 .homePage {
@@ -95,20 +155,6 @@ body {
 .homePage img {
   width: 700px;
   padding: 20px;
-}
-
-.githubLogo {
-  width: 40px;
-  position: absolute;
-  left: 20px;
-  bottom: 20px;
-  cursor: pointer;
-  filter: brightness(0) invert(1);
-  transition: 0.2s ease;
-}
-
-.githubLogo:hover {
-  filter: brightness(1);
 }
 
 .logoSvg:hover {

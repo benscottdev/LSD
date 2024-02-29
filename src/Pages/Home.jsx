@@ -3,9 +3,9 @@ import Transition from "../Components/Transition";
 import lsdStudiosWebLogo from "../Assets/LSD_WEBLOGO.png";
 import githubLogo from "../Assets/github.png";
 
-function Home() {
+function Home({ lightMode }) {
   return (
-    <div>
+    <div className={lightMode}>
       <Nav />
       <div className="homePage">
         <img className="logoSvg" src={lsdStudiosWebLogo} alt="weblogo" />
