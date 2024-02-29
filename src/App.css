@@ -312,4 +312,10 @@ body {
     margin-top: 25px;
     padding: 7.5px;
   }
+
+  .clientItem a:hover,
+  .clientItem:hover {
+    scale: 100%;
+    -webkit-text-stroke: 1px white;
+  }
 }
