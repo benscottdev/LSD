@@ -1,9 +1,15 @@
 import HomeBtn from "../Components/HomeBtn";
 import Transition from "../Components/Transition";
+import reactIcon from "../Assets/React.png";
+import htmlIcon from "../Assets/Html.png";
+import cssIcon from "../Assets/Css.png";
+import pythonIcon from "../Assets/Python.png";
+import javascriptIcon from "../Assets/JavaScript.png";
 
 function About({ lightMode }) {
+  const iconArray = [reactIcon, htmlIcon, cssIcon, javascriptIcon, pythonIcon];
+
   return (
-    
     <div className={lightMode}>
       <HomeBtn />
       <div className="about">
@@ -21,8 +27,14 @@ function About({ lightMode }) {
           <br />
           Let's make some digital magic happen!
         </p>
+
+        <div className="icons">
+          {iconArray.map((icon) => (
+            <img id="languageIcons" key={icon} src={icon} alt="skill icon" />
+          ))}
+        </div>
       </div>
-      </div>
+    </div>
   );
 }
 

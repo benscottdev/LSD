@@ -41,7 +41,7 @@ body {
 .homeBtn h1 {
   font-family: "Akira";
   color: transparent;
-  -webkit-text-stroke: 3px white;
+  -webkit-text-stroke: 1px white;
   letter-spacing: -10px;
   font-size: 80px;
   position: absolute;
@@ -166,6 +166,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-direction: column;
 }
 
 .about p {
@@ -228,6 +229,18 @@ body {
   transition: 0.3s ease-out;
 }
 
+#languageIcons {
+  margin-top: 50px;
+  width: 50px;
+  filter: invert(1);
+  padding: 10px;
+  transition: 0.2s ease;
+}
+
+#languageIcons:hover {
+  scale: 120%;
+}
+
 @media only screen and (max-width: 450px) {
   .navLinks {
     justify-content: center;
@@ -246,7 +259,7 @@ body {
   }
 
   .homeBtn h1 {
-    font-size: 60px;
+    font-size: 50px;
     -webkit-text-stroke: 2px white;
   }
 
@@ -283,5 +296,11 @@ body {
   .toggleMode img {
     width: 10px;
     height: 10px;
+  }
+
+  #languageIcons {
+    width: 3dvh;
+    margin-top: 25px;
+    padding: 7.5px;
   }
 }
