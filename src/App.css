@@ -260,7 +260,7 @@ body {
 
   .homeBtn h1 {
     font-size: 50px;
-    -webkit-text-stroke: 2px white;
+    -webkit-text-stroke: 1px white;
   }
 
   .about p {
@@ -284,7 +284,7 @@ body {
   }
 
   .toggleMode {
-    top: 3%;
+    top: 2%;
     left: 90%;
   }
 
