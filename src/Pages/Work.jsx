@@ -25,7 +25,7 @@ function Work({ lightMode }) {
               </a>
             </div>
           ))}
-          <h2>More projects on the way...</h2>
+          <h2 id="moreProjects">More projects on the way...</h2>
         </div>
       </div>
     </div>
