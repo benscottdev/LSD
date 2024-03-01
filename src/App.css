@@ -285,9 +285,10 @@ body {
   .workItems {
     font-size: 12px;
   }
+
   .work h2 {
     margin-top: 100px;
-    font-size: 8px;
+    font-size: 6px;
   }
 
   .create p {
