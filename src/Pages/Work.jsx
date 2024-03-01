@@ -8,11 +8,7 @@ function Work({ lightMode }) {
       link: "https://songworks.com.au/",
     },
     {
-      client: "2. TAGT",
-      link: "https://tagt.netlify.app/",
-    },
-    {
-      client: "3. Weather API",
+      client: "2. Weather API",
       link: "https://lsdstudiosweatherapp.netlify.app/",
     },
   ];
@@ -29,6 +25,7 @@ function Work({ lightMode }) {
               </a>
             </div>
           ))}
+          <h2>More projects on the way...</h2>
         </div>
       </div>
     </div>
