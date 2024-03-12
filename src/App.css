@@ -12,9 +12,6 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  background-color: black;
-  background-image: url("./Assets/bbblurry.png");
-  background-size: cover;
   overflow: hidden;
 }
 
@@ -130,15 +127,18 @@ body {
 .light {
   width: 100dvw;
   height: 100dvh;
-  background-color: rgb(255, 161, 106);
+  background-color: rgb(255, 255, 255);
+  background-image: url("./Assets/bbblurry (2).png");
+  background-size: cover;
   transition: 0.4s ease;
-  color: pink;
 }
 
 .dark {
   width: 100dvw;
   height: 100dvh;
-  /* background-color: rgb(28, 8, 105); */
+  background-color: rgb(6, 5, 41);
+  background-image: url("./Assets/bbblurry.png");
+  background-size: cover;
   transition: 0.4s ease;
 }
 
