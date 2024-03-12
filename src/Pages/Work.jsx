@@ -11,6 +11,10 @@ function Work({ lightMode }) {
       client: "2. Weather API",
       link: "https://lsdstudiosweatherapp.netlify.app/",
     },
+    {
+      client: "3. The Workshop",
+      link: "https://theadlworkshop.netlify.app/",
+    },
   ];
 
   return (

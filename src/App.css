@@ -69,7 +69,7 @@ body {
   letter-spacing: -6px;
   text-decoration: none;
   transition: 0.12s ease-out;
-  color: white;
+  color: rgb(255, 255, 255);
   margin-bottom: -10px;
 }
 
@@ -136,7 +136,7 @@ body {
 .dark {
   width: 100dvw;
   height: 100dvh;
-  background-color: rgb(22, 22, 81);
+  background-color: rgb(28, 8, 105);
   transition: 0.4s ease;
 }
 
@@ -231,7 +231,7 @@ body {
 .clientItem {
   text-decoration: none;
   color: white;
-  transition: 0.3s ease-out;
+  transition: 0.12s ease-out;
 }
 
 #languageIcons {
