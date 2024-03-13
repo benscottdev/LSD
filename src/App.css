@@ -128,7 +128,7 @@ body {
   width: 100dvw;
   height: 100dvh;
   background-color: rgb(255, 255, 255);
-  background-image: url("./Assets/bbblurry (2).png");
+  background-image: url("./Assets/Light.png");
   background-size: cover;
   transition: 0.4s ease;
 }
@@ -137,7 +137,7 @@ body {
   width: 100dvw;
   height: 100dvh;
   background-color: rgb(6, 5, 41);
-  background-image: url("./Assets/bbblurry.png");
+  background-image: url("./Assets/Dark.png");
   background-size: cover;
   transition: 0.4s ease;
 }
