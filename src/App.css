@@ -128,7 +128,7 @@ body {
   width: 100dvw;
   height: 100dvh;
   background-color: rgb(255, 255, 255);
-  background-image: url("./Assets/Light.png");
+  background-image: require(url("./Assets/Light.png"));
   background-size: cover;
   transition: 0.4s ease;
 }
@@ -137,7 +137,7 @@ body {
   width: 100dvw;
   height: 100dvh;
   background-color: rgb(6, 5, 41);
-  background-image: url("./Assets/Dark.png");
+  background-image: require(url("./Assets/Dark.png"));
   background-size: cover;
   transition: 0.4s ease;
 }
@@ -253,7 +253,7 @@ body {
   .navLinks {
     justify-content: center;
     align-items: center;
-    font-size: 50px;
+    font-size: 40px;
   }
 
   .link:hover {
