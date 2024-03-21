@@ -39,19 +39,19 @@ body {
 
 .homeBtn h1 {
   font-family: "Akira";
-  color: transparent;
-  -webkit-text-stroke: 1px white;
-  letter-spacing: -10px;
-  font-size: 80px;
+  color: white;
+  letter-spacing: -5px;
+  font-size: 40px;
   position: absolute;
-  right: 7.5%;
+  right: 5%;
   top: 0px;
   transition: 0.1s ease-out;
 }
 
 .homeBtn h1:hover {
-  color: white;
-  -webkit-text-stroke: hidden;
+  scale: 105%;
+  -webkit-text-stroke: 1px white;
+  color: transparent;
 }
 
 .navLinks {
@@ -128,7 +128,7 @@ body {
   width: 100dvw;
   height: 100dvh;
   background-color: rgb(255, 255, 255);
-  background-image: require(url("./Assets/Light.png"));
+  background-image: url("./Assets/Light.png");
   background-size: cover;
   transition: 0.4s ease;
 }
@@ -137,7 +137,7 @@ body {
   width: 100dvw;
   height: 100dvh;
   background-color: rgb(6, 5, 41);
-  background-image: require(url("./Assets/Dark.png"));
+  background-image: url("./Assets/Dark.png");
   background-size: cover;
   transition: 0.4s ease;
 }
@@ -172,10 +172,45 @@ body {
 }
 
 .about p {
+  margin-top: 100px;
   font-family: "Bank Printer";
   color: white;
   width: 600px;
   line-height: 18px;
+  font-size: 12px;
+}
+
+.languageIcons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.iconMap {
+  margin-top: 50px;
+}
+
+#languageIcons {
+  cursor: pointer;
+  width: 50px;
+  filter: invert(1);
+  padding: 0px 20px;
+  transition: 0.2s ease;
+  text-align: center;
+}
+
+#languageIcons:hover {
+  scale: 110%;
+}
+
+.langaugeDisplay {
+  width: 100%;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-family: "Akira";
   font-size: 12px;
 }
 
@@ -236,19 +271,6 @@ body {
   transition: 0.12s ease-out;
 }
 
-#languageIcons {
-  cursor: pointer;
-  margin-top: 50px;
-  width: 50px;
-  filter: invert(1);
-  padding: 0px 20px;
-  transition: 0.2s ease;
-}
-
-#languageIcons:hover {
-  scale: 120%;
-}
-
 @media only screen and (max-width: 450px) {
   .navLinks {
     justify-content: center;
@@ -282,6 +304,10 @@ body {
     font-size: 10px;
     line-height: 14px;
     text-align: center;
+  }
+
+  .langaugeDisplay {
+    display: none;
   }
 
   .workItems {

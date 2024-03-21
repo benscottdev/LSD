@@ -4,7 +4,7 @@ function HomeBtn() {
   return (
     <div className="homeBtn">
       <Link to="/">
-        <h1>LSD</h1>
+        <h1>Home</h1>
       </Link>
     </div>
   );
