@@ -293,9 +293,9 @@ body {
   }
 
   .homeBtn h1 {
-    font-size: 50px;
+    font-size: 30px;
     -webkit-text-stroke: 1px white;
-    letter-spacing: -12px;
+    top: 4%;
   }
 
   .about p {
