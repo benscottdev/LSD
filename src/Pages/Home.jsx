@@ -1,6 +1,6 @@
 import Nav from "../Components/Nav";
 import Transition from "../Components/Transition";
-import benScottLogo from "../Assets/BenScott_Logo2.png";
+import benScottLogo from "../Assets/BenScottLogo.png";
 import githubLogo from "../Assets/github.png";
 
 function Home({ lightMode }) {
